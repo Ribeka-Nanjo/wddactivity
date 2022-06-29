@@ -51,7 +51,7 @@ h1 {
 	margin: 0.75rem;
 }
 h2 {
-	text-shadow: 0px 0px 15px rgb(94, 94, 94);
+	text-shadow: 0px 0px 15px rgb(221, 147, 20);
 	color: rgb(44, 52, 61);
 	margin-top: 1em;
 	padding: 1em;
@@ -81,4 +81,5 @@ footer {
 .linklist ul {
 	list-style: none;
 	text-align: center;
+	padding: 1em;
 }
