@@ -1,0 +1,84 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(178, 202, 216);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 2;
+}
+
+header,
+nav,
+main,
+footer {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 1em;
+}
+header img {
+	height: auto;
+	box-shadow: 0px 0px 10px rgb(000, 000, 000);
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: black;
+}
+a:visited {
+	color: rgb(141, 182, 204);
+}
+a:hover {
+	color: rgb(204, 133, 1);
+	text-decoration: underline;
+}
+a:active {
+	color: brown;
+}
+h1 {
+	text-shadow: 2px 5px 4px rgb(172, 173, 173);
+	color: rgb(34, 34, 34);
+	padding: 60px;
+	margin: 0.75rem;
+}
+h2 {
+	text-shadow: 0px 0px 15px rgb(94, 94, 94);
+	color: rgb(44, 52, 61);
+	margin-top: 1em;
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+aside {
+	text-align: justify;
+	font-size: smaller;
+	font-style: italic;
+	margin-top: 1em;
+}
+.container {
+	position: relative;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	min-height: 100vh;
+}
+footer {
+	font-size: 0.8em;
+	background-color: rgb(178, 202, 216);
+	padding: 1em;
+	text-align: center;
+}
+
+.linklist ul {
+	list-style: none;
+	text-align: center;
+}
