@@ -1,34 +1,19 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(178, 202, 216);
+	font-family: "Anton", sans-serif;
+}
+
 * {
-	margin: 0 auto;
-	padding: 0.2em;
-	position: relative;
-}
-.content {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-.section {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	flex-direction: column;
 }
-
-h1 {
-	font-family: "Anton", sans-serif;
-	display: flex;
-	text-align: center;
-	font-size: 60px;
-	letter-spacing: 0.3rem;
-}
-
 body {
-	font-size: 25px;
+	font-size: 16px;
 	font-family: "Cormorant Garamond", serif;
-	font-weight: 400;
 	line-height: 2;
 }
 
@@ -36,10 +21,14 @@ header,
 nav,
 main,
 footer {
+	margin: 0 auto;
 	max-width: 1200px;
 	padding: 1em;
 }
-
+header img {
+	height: auto;
+	box-shadow: 0px 0px 10px rgb(000, 000, 000);
+}
 a {
 	text-decoration: none;
 }
@@ -47,8 +36,7 @@ a:link {
 	color: black;
 }
 a:visited {
-	text-decoration: und;
-	color: rgb(31, 31, 31);
+	color: rgb(141, 182, 204);
 }
 a:hover {
 	color: rgb(204, 133, 1);
@@ -57,19 +45,12 @@ a:hover {
 a:active {
 	color: brown;
 }
-h1 {
+h1,
+h3 {
 	text-shadow: 2px 5px 4px rgb(172, 173, 173);
 	color: rgb(34, 34, 34);
-	padding: 60px;
+	padding: 20px;
 	margin: 0.75rem;
-}
-h2 {
-	text-shadow: 0px 0px 15px rgb(221, 147, 20);
-	color: rgb(44, 52, 61);
-	margin-top: 1em;
-	padding: 1em;
-	margin: 0;
-	text-align: center;
 }
 
 aside {
@@ -85,20 +66,20 @@ aside {
 	min-height: 100vh;
 }
 footer {
-	margin: 0 auto;
-	padding: 0;
-}
-
-.footercontent {
-	width: 100%;
-	min-width: 1200px;
 	font-size: 0.8em;
 	background-color: rgb(178, 202, 216);
+	padding: 1em;
 	text-align: center;
 }
 
 .linklist ul {
 	list-style: none;
 	text-align: center;
+	padding: 1em;
+}
+
+/* icon */
+.icon {
+	margin: 0 auto;
 	padding: 1em;
 }
