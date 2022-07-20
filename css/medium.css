@@ -1,5 +1,16 @@
-@media only screen and (min-width: 580px) {
+@media only screen and (min-width: 900px) {
+	.image {
+		display: flex !important;
+		width: 15em;
+	}
+
 	.footercontent {
-		width: 100%;
+		font-size: 1em;
+		margin: 0 auto;
+		padding: 0;
+		position: inherit;
+	}
+	.content2 {
+		margin: 7em auto;
 	}
 }
